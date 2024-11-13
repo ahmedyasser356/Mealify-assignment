@@ -1,0 +1,129 @@
+@media screen and (min-width: 562px) {
+  .container {
+    width: 80%;
+  }
+  .sub-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .sub-box input {
+    flex-basis: 79%;
+  }
+  .sub-box button {
+    width: 20%;
+  }
+}
+@media screen and (min-width: 728px) {
+  .container {
+    width: 85%;
+  }
+  .chefs-photo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .photo-card {
+    flex-basis: 48%;
+  }
+  .gallery-layout {
+    display: flex;
+    flex-direction: row;
+  }
+  .middle-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .contact-hours,
+  .contact-call,
+  .contact-email,
+  .contact-address {
+    flex-basis: 48.5%;
+  }
+  .container-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .social-footer {
+    flex-basis: 35%;
+  }
+  .sub-footer {
+    flex-basis: 60%;
+  }
+  .sub-footer h3 {
+    margin-top: 0;
+  }
+  .get-in-footer {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (min-width: 952px) {
+  .container {
+    width: 85%;
+  }
+  .home {
+    flex-direction: row-reverse;
+    column-gap: 50;
+    justify-content: space-between;
+  }
+  .photo-card {
+    flex-basis: 31%;
+  }
+  .home-content {
+    text-align: left;
+  }
+  .home-content-bottom {
+    margin-left: 0;
+    width: 73%;
+  }
+  #contact-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #in-name,
+  #in-email {
+    flex-basis: 48.5%;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .fa-bars {
+    display: none;
+  }
+  .social-footer {
+    flex-basis: 24%;
+    padding-right: 10px;
+  }
+  .sub-footer {
+    flex-basis: 50%;
+  }
+
+  .get-in-footer {
+    flex-basis: 24%;
+    padding-left: 10px;
+  }
+  .get-in-footer h3 {
+    margin: 0;
+  }
+  .container {
+    width: 85%;
+  }
+  .home {
+    justify-content: space-between;
+  }
+  .home-img {
+    flex-basis: 50%;
+  }
+  .home-content {
+    flex-basis: 45%;
+  }
+}
